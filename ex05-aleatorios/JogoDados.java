@@ -1,13 +1,13 @@
 import java.util.Random;
 
-public class JogoDosDados {
+public class JogoDados {
     public static Random geradorAleatorio = new Random();
     public static void main(String[] args) {
         int pontuacaoJogador1 = 0;
         int pontuacaoJogador2 = 0;
         for (int i = 1; i <= 10; i += 1) {
-            int dadoJogador1 = (int) (Math.random() * 6) + 1;
-            int dadoJogador2 = (int) (Math.random() * 6) + 1;
+            int dadoJogador1 = (int) (geradorAleatorio.nextInt(6) + 1) ;
+            int dadoJogador2 = (int) (geradorAleatorio.nextInt(6) + 1);
 
             System.out.println("Jogador 1: " + dadoJogador1 + " - " + "Jogador 2: " + dadoJogador2);
 
