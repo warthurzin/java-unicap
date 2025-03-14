@@ -26,7 +26,7 @@ public class JogandoDados {
         } else if (pontuacaoJogador2 > pontuacaoJogador1) {
             System.out.println("Jogador 2 Ganhou por " + pontuacaoJogador2 + " x " + pontuacaoJogador1);
         } else {
-            System.out.println("Empate");
+            System.out.println("Temos um Empate");
         }
     }
 }
